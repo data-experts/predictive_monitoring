@@ -23,8 +23,8 @@ You need to edit the file `process_prediction/config.properties` to specifiy the
 * `training`- the folder containing the training data in XES format
 * `test` - the folder containing the hold out test data in XES format
 * `ingore-attributes` - a comma-separated list of case attributes (by regular expressions) that should be ignored, e.g. `ignore-attributes=year,applicant,payment_granted[^0].*,payment_actual[^0].*,cutting[^0].*`
-* `prefix` - the full qualified class name of the class, that maps traces to prefixes, e.g. `prefix=input.ExamplePrefix` (look in src folder for an implementation)
-* `output` - the full qualified class name of the class, that maps traces to labels. If 'type=outlier`, this label is used for evaluation
+* `prefix` - the full qualified class name of a Scala class that maps traces to prefixes, e.g. `prefix=input.ExamplePrefix` (look in src folder for an implementation)
+* `output` - the full qualified class name of a Scala class that maps traces to labels. If `type=outlier`, this label is used for evaluation
 * `IM-noise` - the noise threshhold for the Inductive Miner used to construct tree-based trace profiles, e.g. `IM-noise=0.8`. The parameter is optional and chosen via cross-validation if not supplied
 
 ### Run it
