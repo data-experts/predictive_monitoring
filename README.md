@@ -37,3 +37,12 @@ Go to the root folder of this project and run the following commands:
 * `run`
 
 When you properly configured the experimental setup, this should run a series of experiments and place results in a folder named `results/<title>`
+
+## Supplying different trace profiles
+
+You can to change the code of `getConfigs()` method in:
+
+* `process_prediction/src/main/scala/de/huberlin/informatik/promi/experiments/BinaryClassification.scala`
+* `process_prediction/src/main/scala/de/huberlin/informatik/promi/experiments/outlier/Outlier.scala`
+
+to modify the experimental setup, edit the trace profiles used or supply your own.
