@@ -36,4 +36,4 @@ Go to the root folder of this project and run the following commands:
 * `project process_prediction`
 * `run`
 
-When you properly configured the experimental setup, this should run a series of experiments and place results in a folder named `results/title`
+When you properly configured the experimental setup, this should run a series of experiments and place results in a folder named `results/<title>`
