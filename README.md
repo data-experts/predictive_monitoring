@@ -4,15 +4,15 @@ This repository contains the code from my master's thesis "Feature extraction fr
 
 The project contains 2 subprojects:
 
-* `feature_extraction` contains the implementation of tree-based trace profiles and general classes for transforming trace profiles to WEKA instances
+* `feature_extraction` contains the implementation of tree-based trace profiles and general classes for transforming trace profiles to [WEKA](http://www.cs.waikato.ac.nz/ml/weka/) instances
 * `process_prediction` contains the experimental setup with different trace profiles in a binary classification and an outlier detection setting
 
 ## How to run the experiments for your own logs 
 
 ### Requirements:
 
-* Scala 2.11 (http://www.scala-lang.org/)
-* sbt (http://www.scala-sbt.org/)
+* [Scala 2.11](http://www.scala-lang.org/)
+* [sbt](http://www.scala-sbt.org/)
 
 ### Configuration
 
