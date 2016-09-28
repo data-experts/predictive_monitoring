@@ -40,7 +40,7 @@ When you properly configured the experimental setup, this should run a series of
 
 ## Supplying different trace profiles
 
-You can to change the code of `getConfigs()` method in:
+You can to change the implementation of the `getConfigs()` methods in:
 
 * `process_prediction/src/main/scala/de/huberlin/informatik/promi/experiments/BinaryClassification.scala`
 * `process_prediction/src/main/scala/de/huberlin/informatik/promi/experiments/outlier/Outlier.scala`
